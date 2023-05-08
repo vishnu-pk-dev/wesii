@@ -1,0 +1,33 @@
+@media (min-width: 1600px) {
+  :root {
+    --size-btn: 52px;
+  }
+}
+@media (max-width: 1599px) {
+  :root {
+    --size-btn: 52px; //44
+  }
+}
+
+$primary: #ffd420;
+
+$btn-border-width: 2px;
+$btn-font-size: 14px;
+$btn-font-weight: 900;
+
+// $form-select-indicator-color: #071221;
+$form-select-indicator: url(/src/assets/img/Group-24.svg);
+// $form-select-bg-size: 50px; //50,50
+$form-select-bg-size: var(--size-btn); //50,50
+
+$form-select-padding-x: 3px;
+$input-bg: #f6f6f6;
+$form-floating-padding-x: 20px;
+// $form-floating-padding-y: 25px;
+
+// @media (max-width: 1599px) {
+//   $form-select-bg-size: 44px;
+// }
+@media (max-width: 450px) {
+  $btn-font-size: 10px;
+}
